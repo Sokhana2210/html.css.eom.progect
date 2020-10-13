@@ -1,3 +1,60 @@
 h3 {
-    background-color: turquoise;
+    background-color:black;
 }
+
+
+header{
+    text-align: center;
+    color: red;
+    font-size: 20px
+    
+
+}
+nav ul{
+    list-style: none;
+    padding: 10px;
+}
+body{
+    background-image: url("d4121-d.jpg");
+
+}
+*{
+    box-sizing: border-box;
+}
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding-bottom: 5px;
+}
+.clearfix:: after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: red;
+  }

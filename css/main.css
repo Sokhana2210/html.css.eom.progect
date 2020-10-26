@@ -207,6 +207,7 @@ html {
   outline: 0;
   display: inline-block;
   padding: 8px;
+ 
   color: white;
   background-color: #000;
   text-align: center;
@@ -355,4 +356,11 @@ font-style: normal;
     width: 100%;
     display: block;
   }
+}
+
+h1{
+  background-color: black;
+}
+h3{
+   color: red
 }
